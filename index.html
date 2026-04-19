@@ -402,6 +402,7 @@
     </a>
 
     <nav class="hidden md:flex items-center gap-8 font-display font-bold text-[11px] tracking-[.28em] uppercase text-muted">
+      <a href="#cenik"   class="hover:text-cream transition-colors">Ceník</a>
       <a href="#sluzby"  class="hover:text-cream transition-colors">Služby</a>
       <a href="#o-nas"   class="hover:text-cream transition-colors">O nás</a>
       <a href="#recenze" class="hover:text-cream transition-colors">Recenze</a>
@@ -428,6 +429,7 @@
 
 <!-- ── Mobile nav overlay ─────────────────────────────── -->
 <nav id="mobile-nav" aria-label="Mobilní navigace" role="dialog" aria-modal="true">
+  <a href="#cenik"   class="mobile-nav-link">Ceník</a>
   <a href="#sluzby"  class="mobile-nav-link">Služby</a>
   <a href="#o-nas"   class="mobile-nav-link">O nás</a>
   <a href="#recenze" class="mobile-nav-link">Recenze</a>
@@ -514,12 +516,12 @@
         </svg>
         736 610 090
       </a>
-      <a href="#sluzby"
+      <a href="#cenik"
          class="inline-flex items-center gap-2
                 font-display font-bold text-[11px] tracking-[.28em] uppercase
                 text-cream/60 hover:text-gold transition-colors
                 border-b border-cream/15 hover:border-gold pb-0.5">
-        Naše služby
+        Ceník
         <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
         </svg>
@@ -547,6 +549,103 @@
   </div>
 
 </section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     PRICING STRIP
+══════════════════════════════════════════════════════ -->
+<section id="cenik" class="py-20 sm:py-28 px-5 sm:px-8 bg-surface border-b border-edge">
+  <div class="max-w-6xl mx-auto">
+
+    <div class="mb-12 reveal">
+      <div class="acc-bar mb-4"></div>
+      <span class="font-display font-bold text-[10px] tracking-[.3em] uppercase text-muted block mb-3">Orientační ceník</span>
+      <h2 class="font-display font-black uppercase leading-none tracking-tight"
+          style="font-size:clamp(2.4rem,6vw,5rem)">Ceny služeb</h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+
+      <!-- Pneuservis -->
+      <div class="bg-bg border border-edge p-8 reveal">
+        <div class="acc-bar mb-6"></div>
+        <h3 class="font-display font-black uppercase text-2xl tracking-wide text-cream mb-6">Přezutí pneu</h3>
+        <ul class="space-y-3">
+          <li class="flex justify-between items-baseline border-b border-edge pb-3">
+            <span class="font-body text-muted text-sm">do 15″</span>
+            <span class="font-display font-bold text-xl text-cream">800 Kč</span>
+          </li>
+          <li class="flex justify-between items-baseline border-b border-edge pb-3">
+            <span class="font-body text-muted text-sm">16–18″</span>
+            <span class="font-display font-bold text-xl text-cream">1 000 Kč</span>
+          </li>
+          <li class="flex justify-between items-baseline border-b border-edge pb-3">
+            <span class="font-body text-muted text-sm">19–21″</span>
+            <span class="font-display font-bold text-xl text-cream">1 200 Kč</span>
+          </li>
+          <li class="flex justify-between items-baseline border-b border-edge pb-3">
+            <span class="font-body text-muted text-sm">22″+</span>
+            <span class="font-display font-bold text-xl text-cream">1 500 Kč</span>
+          </li>
+          <li class="flex justify-between items-baseline border-b border-edge pb-3">
+            <span class="font-body text-muted text-sm">Dojezdové / runflat příplatek</span>
+            <span class="font-display font-bold text-xl text-gold">+500 Kč</span>
+          </li>
+          <li class="flex justify-between items-baseline pt-1">
+            <span class="font-body text-muted text-sm">Uskladnění pneumatik (sezona ½ roku)</span>
+            <span class="font-display font-bold text-xl text-cream">od 700 Kč</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Autoservis -->
+      <div class="bg-bg border border-edge p-8 reveal d1 flex flex-col gap-6">
+        <div>
+          <div class="acc-bar mb-6"></div>
+          <h3 class="font-display font-black uppercase text-2xl tracking-wide text-cream mb-6">Autoservis</h3>
+          <div class="flex justify-between items-baseline border-b border-edge pb-4">
+            <span class="font-body text-muted text-sm">Hodinová sazba</span>
+            <span class="font-display font-bold text-xl text-cream">1 000 Kč / hod</span>
+          </div>
+        </div>
+        <div>
+          <h3 class="font-display font-black uppercase text-2xl tracking-wide text-cream mb-6">Geometrie podvozku</h3>
+          <div class="flex justify-between items-baseline">
+            <span class="font-body text-muted text-sm">Nastavení geometrie</span>
+            <span class="font-display font-bold text-xl text-cream">od 1 000 Kč</span>
+          </div>
+        </div>
+        <p class="font-body text-muted text-xs mt-auto pt-4 border-t border-edge">
+          Ceny jsou orientační. Přesnou cenu vždy upřesníme před zahájením práce.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     CASTROL PARTNER STRIP
+══════════════════════════════════════════════════════ -->
+<div class="bg-bg border-y border-edge py-8 px-5 sm:px-8">
+  <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-10">
+
+    <img src="./OIP (6) (1).png" alt="Castrol Certified Workshop" class="w-20 h-auto flex-shrink-0 drop-shadow-lg" />
+
+    <div class="text-center sm:text-left">
+      <p class="font-display font-black uppercase tracking-[.2em] text-sm text-muted mb-1">Certifikovaný partner</p>
+      <p class="font-display font-black uppercase leading-none tracking-tight text-cream" style="font-size:clamp(1.4rem,3.5vw,2.2rem)">Castrol Service</p>
+    </div>
+
+    <div class="hidden sm:block w-px h-10 bg-edge"></div>
+
+    <p class="font-body text-muted text-sm text-center sm:text-left max-w-xs">
+      Používáme výhradně certifikované oleje a kapaliny Castrol — záruka kvality pro váš motor.
+    </p>
+
+  </div>
+</div>
 
 
 <!-- ══════════════════════════════════════════════════════
@@ -940,12 +1039,21 @@
           <p class="font-display font-bold text-[10px] tracking-[.3em] uppercase text-muted mb-3">Provozní doba</p>
           <div class="space-y-2 font-body text-base">
             <div class="flex items-center gap-5">
-              <span class="text-muted text-sm w-16">Po – Pá</span>
+              <span class="text-muted text-sm w-16">Po – Čt</span>
               <span class="text-cream font-medium">8:00 – 17:00</span>
               <span class="w-2 h-2 rounded-full bg-emerald-500 flex-shrink-0"></span>
             </div>
             <div class="flex items-center gap-5">
+              <span class="text-muted text-sm w-16">Pátek</span>
+              <span class="text-cream font-medium">8:00 – 16:00</span>
+              <span class="w-2 h-2 rounded-full bg-emerald-500 flex-shrink-0"></span>
+            </div>
+            <div class="flex items-center gap-5">
               <span class="text-muted text-sm w-16">So – Ne</span>
+              <span class="text-muted">Zavřeno</span>
+            </div>
+            <div class="flex items-center gap-5">
+              <span class="text-muted text-sm w-16">Svátky</span>
               <span class="text-muted">Zavřeno</span>
             </div>
           </div>
